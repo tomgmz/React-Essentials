@@ -11,7 +11,7 @@ function App() {
     setSelectedTopic(selectedButton);
   }
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = <p>Please select a topic you want to explore.</p>;
 
   if (selectedTopic){
     tabContent = (
