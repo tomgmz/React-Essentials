@@ -1,7 +1,9 @@
+import Button from '@mui/material/Button';
+
 function TabButton({ label, onSelect, isSelected }){
   return (
     <li>
-    <button className={isSelected ? 'active' : ''} onClick={onSelect}>{label}</button>
+    <Button variant='contained' color='primary' className={isSelected ? 'active' : ''} onClick={onSelect}>{label}</Button>
     </li>);
 }
 
